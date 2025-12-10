@@ -21,7 +21,7 @@ Un scanner de ports réseaux simple, rapide et efficace écrit en **Python 3**. 
 ```bash
 git clone https://github.com/matthieupcyb/simple-port-scanner.git
 ```
-3.  Assurez-vous d'avoir Python installé :
+2.  Assurez-vous d'avoir Python installé :
 ```bash
 python --version
 ```
