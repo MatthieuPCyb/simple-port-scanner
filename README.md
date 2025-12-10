@@ -30,7 +30,7 @@ python --version
 
 La syntaxe de base est la suivante :
 ```bash
-python scanner.py <CIBLE> [OPTIONS]
+python scan_port.py <CIBLE> [OPTIONS]
 ```
 
 ### Arguments
@@ -46,17 +46,17 @@ python scanner.py <CIBLE> [OPTIONS]
 
 1. Scan basique (ports 1 à 1024 par défaut) :
 ```Bashpython 
-scanner.py 192.168.1.1
+scan_port.py 192.168.1.1
 ```
 
 2. Scan d'une plage spécifique sur un domaine :
 ```Bashpython 
-scanner.py google.com -p 80-443
+scan_port.py google.com -p 80-443
 ```
 
 3. Scan avec sauvegarde des résultats dans un fichier :
 ```Bashpython
-scanner.py 127.0.0.1 -p 1-5000 -f resultat_scan.txt
+scan_port.py 127.0.0.1 -p 1-5000 -f resultat_scan.txt
 ```
 
 
