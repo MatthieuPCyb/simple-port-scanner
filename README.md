@@ -18,7 +18,10 @@ Un scanner de ports réseaux simple, rapide et efficace écrit en **Python 3**. 
 ## Installation
 
 1.  Clonez ce dépôt ou téléchargez le fichier `scanner.py`.
-2.  Assurez-vous d'avoir Python installé :
+```bash
+git clone https://github.com/matthieupcyb/simple-port-scanner.git
+```
+3.  Assurez-vous d'avoir Python installé :
 ```bash
 python --version
 ```
