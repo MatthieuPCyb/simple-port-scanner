@@ -1,6 +1,6 @@
 # simple-port-scanner - Scanner de Ports TCP Multi-threadé
 
-Un scanner de ports réseaux simple, rapide et efficace écrit en **Python 3**. Ce script utilise le multi-threading pour scanner rapidement des plages de ports TCP et identifie les services associés aux ports ouverts.
+Un scanner de ports réseaux simple utilisant **Python 3**. Ce script utilise le multi-threading pour scanner rapidement des plages de ports TCP et identifie les services associés aux ports ouverts.
 
 ## Fonctionnalités
 
